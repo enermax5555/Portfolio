@@ -1,6 +1,6 @@
 export default function ImageHome() {
     return(
-        <main className='w-0 h-40 flex rounded-r-sm'>
+        <main className='w-0 h-40 flex'>
             <div className='
             border-b-[2rem]
             border-l-[1rem]

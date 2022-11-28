@@ -6,7 +6,7 @@ export default function Home() {
 
         <main className="">
             <selection className='flex pt-10 justify-center select-none'>
-            <p>Home</p>
+            <p className='font-mono text-2xl text-white font-bold'>Home:</p>
             </selection>
             <header className='flex pl-40 pt-10 select-none'>
             <div className='space-y-3 text-white font-poppins shadow-sm'> 
