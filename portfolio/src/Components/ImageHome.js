@@ -1,25 +1,25 @@
-
-
 export default function ImageHome() {
     return(
-        <main className='flex'>
-            <header className=''>
-            <div className='border-x-8 border-y-transparent border-b-[20px] border-b-transparent'>
-            <div className='border-x-8 border-y-transparent border-b-[20px] border-b-transparent'>
-            <div className='border-x-8 border-y-transparent border-b-[20px] border-b-transparent'>
+        <main className='w-0 h-40 flex rounded-r-sm'>
+            <div className='
+            border-b-[2rem]
+            border-l-[1rem]
+            border-r-[1rem]
+            border-b-transparent'>
             </div>
+            <div className='
+            border-b-[5rem] 
+            border-l-[3rem]
+            border-r-[3rem]
+            border-b-transparent'>
             </div>
+            <div className='
+            border-b-[2rem]
+            border-l-[1rem]
+            border-r-[1rem]
+            border-b-transparent'>
             </div>
-            <div className='border-x-8 border-y-transparent border-b-[20px] border-b-transparent'>
-            </div>
-            <div className='border-x-8 border-y-transparent border-b-[20px] border-b-transparent'>
-            </div>
-            <div className='border-x-8 border-y-transparent border-b-[0px] border-b-transparent'>
-            <div className='border-x-2 border-x-transparent border-b-[20px] border-b-transparent'>
-            </div>
-            </div>
-            </header>
-        <p>Image set</p>
+        
         </main>
     )
 }
