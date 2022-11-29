@@ -7,7 +7,7 @@ export default function NavBar() {
     const [arrow, setArrow] = useState(true);
     return(
 
-        <main className='absolute text-white cursor-default'>
+        <main className='fixed text-white cursor-default'>
 <header className="flex space-x-10 p-1">
     <div className='bg-black p-2 select-none'>
         <div className='absolute pl-6 text-red-500 text-7xl '>S</div>

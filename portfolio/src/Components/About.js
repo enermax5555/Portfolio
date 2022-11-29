@@ -4,9 +4,9 @@ export default function About(){
         <selection className='flex justify-center pt-10 select-none'>
             <p className='font-mono text-2xl text-white font-bold'>About me:</p>
         </selection>
-        <header className='flex justify-center'>
-        <div >
-            <p>I am studing for web developer. I like to create, good
+        <header className=''>
+        <div className='m-10 p-10 justify-center border-2 border-slate-600 rounded-lg' >
+            <p className='text-white text-center'>I am studing for web developer. I like to create, good
                 looking, web applications. After i graduated from high-school,
                 i decided to start learn programming. I applied for new bulgarian
                 university, where accepted me with Informational Technologies.
@@ -30,7 +30,8 @@ export default function About(){
                 manage to build my first e-commercinal website. It tooks me like couple
                 of months, step-by-step upgrading, but finnaly i was done. Then i done
                 some web-animation using PIXI.js(boom.dev course). Also created some
-                levels in Unreal4 engine and Unity. Then i am back here with this portfolio
+                levels in Unreal4 engine, Unity and created pure lua script game i called
+                "The Magic Knight". Then i am back here with this portfolio
                 builded on React.js using Taiwind CSS for styling and    
             </p>
         </div>
