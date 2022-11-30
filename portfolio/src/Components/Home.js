@@ -8,7 +8,7 @@ export default function Home() {
             <selection className='flex pt-10 justify-center select-none'>
             <p className='font-mono text-2xl text-white font-bold'>Home:</p>
             </selection>
-            <header className='flex pl-40 pt-10 select-none'>
+            <header className='flex gap-x-5 pl-40 pt-10 select-none'>
             <div className='space-y-3 text-white font-poppins shadow-sm'> 
                <p className='text-6xl pb-5'>Hello there!</p> 
                 <p className='text-4xl'>My name is</p>
@@ -25,7 +25,10 @@ export default function Home() {
                 <img className='w-20 m-10' src={require('../Assets/images/jonyTheExplorerWithRemovedBg.png')} alt='Explorer Web Dev' />
                 
                 </div>
+                <div className='flex gap-x-40'>
                 <ImageHome/>
+                <ImageHome/>
+                </div>
                 </header>
         </main>
     )
