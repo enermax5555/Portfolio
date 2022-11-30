@@ -14,11 +14,11 @@ export default function Contact() {
                     </div>
                     <div>
                         <p className='text-white pb-1'>Enter your email:</p>
-                        <input type='email' placeholder='Name' className='border-solid border-gray-600 bg-gray-300 rounded-lg p-2 w-80'/>
+                        <input type='email' placeholder='Email' className='border-solid border-gray-600 bg-gray-300 rounded-lg p-2 w-80'/>
                     </div>
                     <div>
                         <p className='text-white pb-1'>Enter your message:</p>
-                        <textarea type='text' rows='6' placeholder='Name' className='border-solid border-gray-600 bg-gray-300 rounded-lg w-full p-2 font-normal'/>
+                        <textarea type='text' rows='6' placeholder='Message' className='border-solid border-gray-600 bg-gray-300 rounded-lg w-full p-2 font-normal'/>
                     </div>
                     </div>
                 </form>
