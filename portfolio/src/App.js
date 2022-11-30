@@ -6,6 +6,7 @@ import Projects from "./Components/Project";
 import Contact from "./Components/Contact";
 import Footer from "./Components/Footer";
 
+
 function App() {
   return (
     <main className=''>
