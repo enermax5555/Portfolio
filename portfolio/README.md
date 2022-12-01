@@ -1,19 +1,14 @@
-<center> 
-
 # Portfolio Web-Page
   Welcome, dear fellas! This project is simply my personal web developer portfolio!
 
-</center>
-
 ## Introduction
-
 
 > 1. [Technologies](#technologies)
 > 2. [Features](#features)
 > 3. [How to setup](#how-to-setup)
 
 ---
-#tehnologies
+
 ## Technologies 
 
 I wanted to create a simple web developer portfolio, using only React and TaiwindCSS, where i can say something about me and also show my work,skills and expirience so far.
