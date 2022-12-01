@@ -1,5 +1,5 @@
 # Portfolio Web-Page
-  Welcome, dear fellas! This project is simply my personal web developer portfolio!
+  Welcome, dear fellas! This project is my personal web developer portfolio!
 
 ## Introduction
 
@@ -11,7 +11,7 @@
 
 ## Technologies 
 
-I wanted to create a simple web developer portfolio, using only React and TaiwindCSS, where i can say something about me and also show my work,skills and expirience so far.
+I wanted to create a simple web developer portfolio, using only React and TaiwindCSS, where i can say something about me and also show my work, skills and expirience so far.
 
 - __React.js__
 - __Tailwind CSS__
@@ -23,7 +23,7 @@ I wanted to create a simple web developer portfolio, using only React and Taiwin
 
 Navigation bar to surf easy in-page.
 
-Project section, where u can find photos and links, to github repositories, of my projects
+Project section, where you can find photos and links, to github repositories, of my projects
     
 Contact form, using EmailJS service, to send me personal email, if anyone want to contact me.
 
@@ -31,16 +31,24 @@ Contact form, using EmailJS service, to send me personal email, if anyone want t
 
 ## How to setup
 
-   In order to get this project on local directory to test it u will need the follow things:
+   In order to get this project on local directory, you will need to do this:
    
 1. Install Git & Node.js
-2. Clone the repository on ur local directory:
+2. Clone the repository on your local directory:
 > git clone https://github.com/enermax5555/Portfolio
-3. After u got the copy u will need to install dependancies:
+1. After you got the copy, you will need to install dependencies:
 > npm install
-4. Then u can start a Node.js server:
+1. Then u can start a Node.js server:
 >npm start
-5. By default the server will be open on port:3000, so just enter this url in ur browser:
+1. By default the server will be open on port:3000, so just enter this url in ur browser:
 >localhost:3000
 
-In case of broken url: You can always go on the terminal window, where u ran the server and check the exact port for ur localhost.
+In case of broken url: You can always go on the terminal window, where you ran the server and check the exact port for your localhost.
+
+## Helpful Links
+
+* [React.js](https://reactjs.org)
+*  [Tailwind CSS](https://tailwindcss.com)
+*  [EmailJS](https://www.emailjs.com)
+*  [Git](https://git-scm.com)
+*  [Node.js](https://nodejs.org/en/)
