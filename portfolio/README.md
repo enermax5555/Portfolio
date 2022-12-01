@@ -11,7 +11,7 @@
 
 ## Technologies 
 
-I wanted to create a simple web developer portfolio, using only React and TaiwindCSS, where i can say something about me and also show my work, skills and expirience so far.
+I wanted to create a simple web developer portfolio, using only React and TaiwindCSS, where I can say something about me and also show my work, skills and experience so far.
 
 - __React.js__
 - __Tailwind CSS__
@@ -38,9 +38,9 @@ Contact form, using EmailJS service, to send me personal email, if anyone want t
 > git clone https://github.com/enermax5555/Portfolio
 1. After you got the copy, you will need to install dependencies:
 > npm install
-1. Then u can start a Node.js server:
+1. Then you can start a Node.js server:
 >npm start
-1. By default the server will be open on port:3000, so just enter this url in ur browser:
+1. By default the server will be open on port:3000, so just enter this url in your browser:
 >localhost:3000
 
 In case of broken url: You can always go on the terminal window, where you ran the server and check the exact port for your localhost.
