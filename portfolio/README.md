@@ -1,70 +1,51 @@
-# Getting Started with Create React App
+<center> 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Portfolio Web-Page
+  Welcome, dear fellas! This project is simply my personal web developer portfolio!
 
-## Available Scripts
+</center>
 
-In the project directory, you can run:
+## Introduction
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+> 1. [Technologies](#technologies)
+> 2. [Features](#features)
+> 3. [How to setup](#how-to-setup)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
+#tehnologies
+## Technologies 
 
-### `npm test`
+I wanted to create a simple web developer portfolio, using only React and TaiwindCSS, where i can say something about me and also show my work,skills and expirience so far.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- __React.js__
+- __Tailwind CSS__
+- __EmailJS__
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Features
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Navigation bar to surf easy in-page.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Project section, where u can find photos and links, to github repositories, of my projects
+    
+Contact form, using EmailJS service, to send me personal email, if anyone want to contact me.
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## How to setup
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+   In order to get this project on local directory to test it u will need the follow things:
+   
+1. Install Git & Node.js
+2. Clone the repository on ur local directory:
+> git clone https://github.com/enermax5555/Portfolio
+3. After u got the copy u will need to install dependancies:
+> npm install
+4. Then u can start a Node.js server:
+>npm start
+5. By default the server will be open on port:3000, so just enter this url in ur browser:
+>localhost:3000
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+In case of broken url: You can always go on the terminal window, where u ran the server and check the exact port for ur localhost.
