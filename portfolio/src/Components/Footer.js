@@ -10,7 +10,7 @@ export default function Footer() {
                                 hover:p-0.5 hover:bg-blue-600 hover:shadow-lg duration-300
                                 focus:bg-blue-600 focus:shadow-2xl focus:outline-none focus:ring-0
                                 before:block before:absolute before:-inset-1 before:bg-blue-400'>
-                <p className='relative font-mono text-black hover:text-white cursor-pointer'>DOWNLOAD HERE!</p>
+                <p className='relative font-mono text-black hover:text-white cursor-pointer select-none'>DOWNLOAD HERE!</p>
                 </div>
                 </div>
                 
