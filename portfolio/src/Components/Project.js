@@ -1,6 +1,6 @@
 export default function Projects() {
     return(
-        <main className=''>
+        <main id='Projects'>
             <selection className='flex p-10 justify-center select-none'>
                 <p className='font-mono text-2xl text-white font-bold'> Projects: </p>
             </selection>

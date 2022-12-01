@@ -1,6 +1,6 @@
 export default function About(){
     return(
-    <main>
+    <main id='About'>
         <selection className='flex justify-center pt-10 select-none'>
             <p className='font-mono text-2xl text-white font-bold'>About me:</p>
         </selection>

@@ -20,7 +20,7 @@ export default function Contact() {
         e.target.reset()
     };
     return(
-        <main className=''>
+        <main id='Contact'>
             <selection className='flex justify-center pt-10 pb-5 select-none'>
         <p className='font-mono text-2xl text-white font-bold'>Contact Me:</p>        
             </selection>

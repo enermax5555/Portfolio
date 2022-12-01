@@ -1,7 +1,8 @@
 import React from "react";
-
 import { useState } from "react";
 import Icons from "./IconsNav";
+import AnchorLink from 'react-anchor-link-smooth-scroll';
+
 
 export default function NavBar() {
     const [arrow, setArrow] = useState(true);
@@ -15,14 +16,29 @@ export default function NavBar() {
         <p className='text-center text-base pb-2'>Stoqn</p>
         <p className='text-center text-xs text-gray-400'>Web Developer</p>
         <hr className='mt-3'/>
+
         <nav className={`${arrow ? 'h-auto w-auto text-center text-gray-600 pt-5 pt-5 pb-5' : 'collapse pb-5 scale-75 text-center w-auto opacity-0 h-0 w-0 cursor-normal'} duration-300`}>
-        <ul className='hover:text-black hover:bg-white cursor-pointer p-1'> Home </ul><hr/>
-    <ul className='hover:text-black hover:bg-white cursor-pointer p-1'> About me</ul><hr/>
-    <ul className='hover:text-black hover:bg-white cursor-pointer p-1'> Projects</ul><hr/>
-    <ul className='hover:text-black hover:bg-white cursor-pointer p-1'> Contacts</ul><hr/>
+        <AnchorLink href='#Home'>
+        <ul className='hover:text-black hover:bg-white cursor-pointer p-1'>
+            Home
+            </ul></AnchorLink><hr/>
+        <AnchorLink href='#About'>    
+        <ul className='hover:text-black hover:bg-white cursor-pointer p-1'> 
+            About me
+            </ul></AnchorLink><hr/>
+        <AnchorLink href='#Projects'>    
+    <ul className='hover:text-black hover:bg-white cursor-pointer p-1'> 
+            Projects
+            </ul></AnchorLink><hr/>
+        <AnchorLink href='#Contact'>
+    <ul className='hover:text-black hover:bg-white cursor-pointer p-1'>
+            Contacts
+            </ul></AnchorLink><hr/>
         <Icons/>
         <hr/>
         </nav>
+
+    
         <div className='flex pb-3 justify-center scale-125 text-gray-600 '>
             <div className='hover:text-white hover:animate-pulse hover:text-white-600 duration-500'>
             <button onClick={() => setArrow(!arrow)}>

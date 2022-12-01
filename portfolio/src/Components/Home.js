@@ -4,7 +4,7 @@ import ImageHome from "./ImageHome"
 export default function Home() {
     return(
 
-        <main className="">
+        <main id='Home'>
             <selection className='flex pt-10 justify-center select-none'>
             <p className='font-mono text-2xl text-white font-bold'>Home:</p>
             </selection>
