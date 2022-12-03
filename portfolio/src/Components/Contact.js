@@ -5,35 +5,35 @@ import emailjs from 'emailjs-com'
 
 export default function Contact() {
     const form=useRef();
-    
+
     const inputform = [
         {
             pText: 'Enter your name:',
             type: 'text',
             name: 'user_name',
             placeholder: 'Name',
-            rows: '0'
+            rows: 0
         },
         {
             pText: 'Enter your email:',
             type: 'email',
             name: 'user_email',
             placeholder: 'Email',
-            rows: '0'
+            rows: 0
         },
         {
-            pText: 'Enter your message:',
-            type: 'textarea',
-            name: 'message',
-            placeholder: 'Message',
-            rows: '6'
+            pText: 'Enter your message',
+            type:'text',
+            name:'message',
+            placeholder:'Message',
+            rows: 4
         },
     ]
     const InputForms = inputform.map((e) => {
         return(
             <div>
                 <p className='text-white pb-1 cursor-default select-none'>{e.pText}</p>
-                <input type={e.type} name={e.name} placeholder={e.placeholder} rows={e.rows} className='border-solid border-gray-600 bg-gray-300 rounded-lg p-2 w-80' />
+                <input type={e.type} name={e.name} placeholder={e.placeholder} rows="6" cols='20' className='border-solid border-gray-600 rounded-lg p-2 w-80' />
             </div>
         )
     })
@@ -51,7 +51,7 @@ export default function Contact() {
         e.target.reset()
     };
     return(
-        <main id='Contact'>
+        <main id='Contact' className='border-2 border-gray-600 border-solid m-20 rounded-lg hover:border-gray-400'>
             <selection className='flex justify-center pt-10 pb-5 select-none'>
         <p className='font-mono text-2xl text-white font-bold'>Contact Me</p>        
             </selection>
@@ -66,6 +66,9 @@ export default function Contact() {
                     </div>
                     </div>
                 </form>
+                {/* <div>
+                    s
+                </div> */}
             </header>
         </main>
     )
