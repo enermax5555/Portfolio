@@ -5,10 +5,41 @@ import emailjs from 'emailjs-com'
 
 export default function Contact() {
     const form=useRef();
-
+    
+    const inputform = [
+        {
+            pText: 'Enter your name:',
+            type: 'text',
+            name: 'user_name',
+            placeholder: 'Name',
+            rows: '0'
+        },
+        {
+            pText: 'Enter your email:',
+            type: 'email',
+            name: 'user_email',
+            placeholder: 'Email',
+            rows: '0'
+        },
+        {
+            pText: 'Enter your message:',
+            type: 'textarea',
+            name: 'message',
+            placeholder: 'Message',
+            rows: '6'
+        },
+    ]
+    const InputForms = inputform.map((e) => {
+        return(
+            <div>
+                <p className='text-white pb-1 cursor-default select-none'>{e.pText}</p>
+                <input type={e.type} name={e.name} placeholder={e.placeholder} rows={e.rows} className='border-solid border-gray-600 bg-gray-300 rounded-lg p-2 w-80' />
+            </div>
+        )
+    })
     const sendEmail = (e) => {
         e.preventDefault();
-        
+
         emailjs.sendForm('portfolio_service', 'portfolio_form', form.current, '_ZuCaNlgv1P8lkjzI')
             .then((result) => {
                 console.log('SUCCSES! :', result.text);
@@ -29,18 +60,7 @@ export default function Contact() {
                 <form ref={form} onSubmit={sendEmail}>
                     <div className='grid grid-col-1 gap-y-5 justify-center text-center font-bold pb-10'>
                         <input type='hidden' name='contact_number'/>
-                        <div>
-                        <p className='text-white pb-1 cursor-default select-none'>Enter your name:</p>
-                        <input type='text' name='user_name' placeholder='Name' className='border-solid border-gray-600 bg-gray-300 rounded-lg p-2'/>
-                    </div>
-                    <div>
-                        <p className='text-white pb-1 cursor-default select-none'>Enter your email:</p>
-                        <input type='email' name='user_email' placeholder='Email' className='border-solid border-gray-600 bg-gray-300 rounded-lg p-2 w-80'/>
-                    </div>
-                    <div>
-                        <p className='text-white pb-1 cursor-default select-none'>Enter your message:</p>
-                        <textarea type='text' name='message' rows='6' placeholder='Message' className='border-solid border-gray-600 bg-gray-300 rounded-lg w-full p-2 font-normal'/>
-                    </div>
+                        {InputForms}
                     <div>
                         <button type='submit' value='Send' className='bg-blue-500 text-white rounded px-5 py-2 hover:bg-blue-700 hover:shadow-lg duration-300'>SEND</button>
                     </div>

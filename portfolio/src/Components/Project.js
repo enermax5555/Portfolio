@@ -25,9 +25,9 @@ export default function Projects() {
     
 
     ]
-    const projectsItems = projects.map((item, a) => {
+    const projectsItems = projects.map((item) => {
         return (
-            <div key={a}>
+            <div>
                 <a href={item.ref}>
                     <img className='rounded-lg h-40 w-80 lg:blur hover:blur-none duration-300 cursor-pointer' src={item.src} alt={item.alt} />
                     <p className='py-5'>{item.text}</p>
