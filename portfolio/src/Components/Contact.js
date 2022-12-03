@@ -22,12 +22,12 @@ export default function Contact() {
     return(
         <main id='Contact'>
             <selection className='flex justify-center pt-10 pb-5 select-none'>
-        <p className='font-mono text-2xl text-white font-bold'>Contact Me:</p>        
+        <p className='font-mono text-2xl text-white font-bold'>Contact Me</p>        
             </selection>
 
             <header>
                 <form ref={form} onSubmit={sendEmail}>
-                    <div className='grid grid-col-1 gap-y-5 justify-center text-center font-bold'>
+                    <div className='grid grid-col-1 gap-y-5 justify-center text-center font-bold pb-10'>
                         <input type='hidden' name='contact_number'/>
                         <div>
                         <p className='text-white pb-1 cursor-default select-none'>Enter your name:</p>
@@ -42,7 +42,7 @@ export default function Contact() {
                         <textarea type='text' name='message' rows='6' placeholder='Message' className='border-solid border-gray-600 bg-gray-300 rounded-lg w-full p-2 font-normal'/>
                     </div>
                     <div>
-                        <button type='submit' value='Send' className='bg-blue-500 text-white rounded w-full hover:bg-blue-700 hover:shadow-lg duration-300'>SEND</button>
+                        <button type='submit' value='Send' className='bg-blue-500 text-white rounded px-5 py-2 hover:bg-blue-700 hover:shadow-lg duration-300'>SEND</button>
                     </div>
                     </div>
                 </form>

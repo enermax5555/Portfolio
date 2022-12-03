@@ -8,11 +8,13 @@ export default function NavBar() {
     const [arrow, setArrow] = useState(true);
     return(
 
-        <main className='fixed text-white cursor-default'>
+        <main className='flex justify-center lg:fixed text-white cursor-default'>
 <header className="flex space-x-10 p-1">
-    <div className='bg-black p-2 select-none'>
-        <div className='absolute pl-6 text-red-500 text-7xl '>S</div>
-        <div className='text-cyan-400 pl-5 text-7xl '> S </div>
+    <div className='w-80 lg:w-auto bg-black p-2 select-none'>
+        <div className='hidden lg:contents'>
+        <div className='absolute pl-6 text-red-500 text-7xl'>S</div>
+        <div className='text-cyan-400 pl-5 text-7xl'> S </div>
+        </div>
         <p className='text-center text-base pb-2'>Stoqn</p>
         <p className='text-center text-xs text-gray-400'>Web Developer</p>
         <hr className='mt-3'/>

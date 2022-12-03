@@ -1,11 +1,11 @@
 export default function About(){
     return(
-    <main id='About'>
+    <main id='About' className=''>
         <selection className='flex justify-center pt-10 select-none'>
-            <p className='font-mono text-2xl text-white font-bold'>About me:</p>
+            <p className='font-mono text-2xl text-white font-bold'>About me</p>
         </selection>
         <header className=''>
-        <div className='m-10 p-10 justify-center border-2 border-slate-600 rounded-lg' >
+        <div className='p-2 m-2 lg:m-10 lg:p-10 justify-center border-2 border-slate-600 rounded-lg' >
             <p className='text-white text-center'>I am studing for web developer. I like to create, good
                 looking, web applications. After i graduated from high-school,
                 i decided to start learn programming. I applied for new bulgarian

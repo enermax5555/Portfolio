@@ -1,8 +1,8 @@
 export default function Footer() {
     return(
-        <main className='pt-10'>
+        <main className='hidden lg:contents'>
             <header>
-                <div className='flex justify-center gap-x-10 bg-gray-400 p-4 font-bold rounded-sm'>
+                <div className='flex justify-center gap-x-10 bg-gray-400 p-4 font-bold'>
                 <p>Email: stoqn.sisimen@gmail.com</p>
                 <p>Discord: RedFlash#3678</p>
                 <p>DEMO CV:</p>
