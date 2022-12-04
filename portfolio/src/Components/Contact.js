@@ -51,24 +51,30 @@ export default function Contact() {
         e.target.reset()
     };
     return(
-        <main id='Contact' className='border-2 border-gray-600 border-solid m-20 rounded-lg hover:border-gray-400'>
+        <main id='Contact' className='border-2 border-gray-600 border-solid lg:m-20 rounded-lg hover:border-gray-400'>
             <selection className='flex justify-center pt-10 pb-5 select-none'>
         <p className='font-mono text-2xl text-white font-bold'>Contact Me</p>        
             </selection>
 
-            <header>
+            <header className='grid lg:grid-cols-3'>
+                <div className='border-2 border-solid rounded-lg p-10 text-center text-white m-5'>
+
+                </div>
                 <form ref={form} onSubmit={sendEmail}>
-                    <div className='grid grid-col-1 gap-y-5 justify-center text-center font-bold pb-10'>
+                    <div className='grid gap-y-5 justify-center text-center font-bold pb-10'>
                         <input type='hidden' name='contact_number'/>
                         {InputForms}
                     <div>
                         <button type='submit' value='Send' className='bg-blue-500 text-white rounded px-5 py-2 hover:bg-blue-700 hover:shadow-lg duration-300'>SEND</button>
                     </div>
+                    <div>
+
+                    </div>
                     </div>
                 </form>
-                {/* <div>
-                    s
-                </div> */}
+                <div className='border-2 border-solid rounded-lg p-10 text-center text-white m-5'>
+                        
+                        </div>
             </header>
         </main>
     )
