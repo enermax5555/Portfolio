@@ -6,3 +6,14 @@
     font-family: "Poppins";
     src: url(./Assets/fonts/Poppins-ExtraBold.ttf)
 }
+h1 .test {
+-webkit-transition: all 0.3s ease-out;
+-o-transition: all 0.3s ease-out;
+transition: all 0.3s ease-out;
+}
+h1 .test:hover{
+    color:red;   
+}
+h1 .tab{
+    margin-left:10px;
+}
