@@ -36,7 +36,7 @@ export default function NavBar() {
     <ul className='hover:text-black hover:bg-white cursor-pointer p-1'>
             Contacts
             </ul></AnchorLink><hr/>
-        <Icons/>
+        {/* <Icons/> */}
         <hr/>
         </nav>
 
