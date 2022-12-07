@@ -11,7 +11,7 @@ export default function Home() {
             </selection>
             <header className='flex gap-x-5 lg:pl-40 lg:pt-10 pl-5 text-center select-none'>
             <div className='space-y-3 text-white font-poppins shadow-sm'> 
-               <h1 className='text-6xl pb-5 hover:scale-125 duration-700'>
+               <h1 className='text-6xl pb-5 lg:hover:scale-125 duration-700'>
                <span className='test'>H</span>
                <span className='test'>e</span>
                <span className='test'>l</span>
@@ -22,7 +22,7 @@ export default function Home() {
                <span className='test'>e</span>
                <span className='test'>r</span>
                <span className='test'>e</span></h1>
-                <h1 className='text-4xl hover:scale-125 duration-700'>
+                <h1 className='text-4xl lg:hover:scale-125 duration-700'>
                     <span className='test'>M</span>
                     <span className='test'>y</span>
                     <span className='test tab'>n</span> 
@@ -32,7 +32,7 @@ export default function Home() {
                     <span className='test tab'>i</span> 
                     <span className='test'>s</span>
                     </h1>
-                <div className='flex hover:scale-125 duration-700'>
+                <div className='flex lg:hover:scale-125 duration-700'>
                 <p className='absolute text-6xl text-red-500 pl-1 font-bold'>S</p>
                 <p className='text-6xl text-cyan-500 font-bold'>S</p>
                 <div className='pt-3.5'>

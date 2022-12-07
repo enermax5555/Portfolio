@@ -31,19 +31,19 @@ export default function About(){
             <div className='grid grid-cols-4 pt-10'>
                 <div className=''>
                 <img className='m-auto rounded-full w-7' src={require('../Assets/images/BaseCSS.png')}/>
-            <p className='p-3'>CSS <br/> Bootstrap  <br/> Tailwind  <br/> Vanilla  <br/> SASS</p>
+            <p className='p-3'><b>CSS</b> <br/> Bootstrap  <br/> Tailwind  <br/> Vanilla  <br/> SASS</p>
             </div>
             <div>
             <img className='m-auto rounded-full w-7' src={require('../Assets/images/BaseJS.png')}/>
-            <p className='p-3'>JS <br/> React <br/> PIXI</p>
+            <p className='p-3'><b>JS</b> <br/> React <br/> PIXI</p>
             </div>
             <div>
             <img className='m-auto rounded-full w-7' src={require('../Assets/images/BasePython.png')}/>
-                <p className='p-3'>Python  <br/> Django  <br/> Pygame</p>
+                <p className='p-3'><b>Python</b>  <br/> Django  <br/> Pygame</p>
             </div>
             <div>
             <img className='m-auto rounded-full w-7' src={require('../Assets/images/BaseDB.png')}/>
-                <p className='p-3'>DB  <br/> SQL  <br/> SQLlite</p>
+                <p className='p-3'><b>DB</b>  <br/> SQL  <br/> SQLlite</p>
             </div>
             </div>
             <p className='italic text-gray-400'>´Everyday, is a learning day´</p>
