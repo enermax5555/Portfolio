@@ -43,7 +43,7 @@ export default function About(){
             <img className='m-auto pb-5 rounded-full w-10' src={require('../Assets/images/Skillgroup.png')}/>
 
 
-            <img src={require('../Assets/images/TechnologieStacks.jpg')}/>
+            <img src={require('../Assets/images/TechnologieStacks.png')}/>
 
             </div>
              <div className='absolute backface-hidden rotate-y-full w-full h-full'>  
