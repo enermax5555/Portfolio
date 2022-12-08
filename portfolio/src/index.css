@@ -10,9 +10,11 @@ h1 .test {
 -webkit-transition: all 0.3s ease-out;
 -o-transition: all 0.3s ease-out;
 transition: all 0.3s ease-out;
+transform: scale(-0.7, 1);
 }
 h1 .test:hover{
-    color:red;   
+    color:red;
+    font-size: 6vw;
 }
 h1 .tab{
     margin-left:10px;
