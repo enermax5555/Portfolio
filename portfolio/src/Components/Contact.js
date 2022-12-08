@@ -32,7 +32,7 @@ export default function Contact() {
     const InputForms = inputform.map((e) => {
         return(
             <div>
-                <p className='text-white pb-1 cursor-default select-none'>{e.pText}</p>
+                <p className='text-white pb-1 cursor-default select-none font-sofia'>{e.pText}</p>
                 <input type={e.type} name={e.name} placeholder={e.placeholder} rows="6" cols='20' className='border-solid border-gray-600 rounded-lg p-2 w-80' />
             </div>
         )
@@ -51,14 +51,23 @@ export default function Contact() {
         e.target.reset()
     };
     return(
-        <main id='Contact' className='lg:p-10 lg:pt-5 rounded-lg hover:border-gray-400'>
-            <selection className='flex justify-center pt-5 pb-5 select-none'>
-        <p className='font-mono text-2xl text-white font-bold'>Contact Me</p>        
+        <main id='Contact' className='lg:p- lg:pt-5 rounded-lg hover:border-gray-400'>
+            <selection className='flex justify-center py-5 select-none'>
+        <p className='font-mono text-2xl text-white font-montserrat font-bold'>Contact Me</p>        
             </selection>
 
             <header className='grid lg:grid-cols-3'>
-                <div className='border-2 border-solid rounded-lg p-10 text-center text-white m-5'>
-                Qkozeeeeeee abv-to
+
+
+                <div className=''>
+                <div className='ml-40 w-50 h-28 rounded-full border-2 text-center py-10'>
+                    <p className='font-bold font-sofia text-white'>I would love to answer you!</p>
+                </div>
+                <div className='absolute ml-28 w-20 h-10 rounded-full border-2'>
+                </div>
+
+                <img className='h-60' src={require('../Assets/images/Contact.png')}/>
+
                 </div>
                 <form ref={form} onSubmit={sendEmail}>
                     <div className='grid gap-y-5 justify-center text-center font-bold'>
@@ -75,7 +84,7 @@ export default function Contact() {
                         <img className='w-7'src={require('../Assets/images/Discord.png')}/>
                         </div>
                      
-                        <div className='col-start-2 col-end-8 space-y-5'>
+                        <div className='col-start-2 col-end-8 space-y-5 font-sofia'>
                         <p>stoqn.sisimen@gmail.com</p>
                         <p>RedFlash#3678</p>
                         
