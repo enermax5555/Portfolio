@@ -7,11 +7,11 @@ export default function Home() {
         
         <main id='Home'>
             <selection className='flex pt-10 justify-center select-none'>
-            <p className='font-mono text-2xl text-white font-bold'></p>
+
             </selection>
             <header className='flex gap-x-5 lg:pl-40 lg:pt-10 pl-5 text-center select-none'>
-            <div className='space-y-3 text-white font-poppins shadow-sm'> 
-               <h1 className='text-6xl pb-5 lg:hover:scale-125 duration-700'>
+            <div className='mr-60 space-y-3 text-white font-montserrat font-bold shadow-sm'> 
+               <h1 className='h-20 w-40 text-6xl'>
                <span className='test'>H</span>
                <span className='test'>e</span>
                <span className='test'>l</span>
@@ -22,7 +22,7 @@ export default function Home() {
                <span className='test'>e</span>
                <span className='test'>r</span>
                <span className='test'>e</span></h1>
-                <h1 className='text-4xl lg:hover:scale-125 duration-700'>
+                <h1 className='h-10 w-40 ml-10 text-4xl'>
                     <span className='test'>M</span>
                     <span className='test'>y</span>
                     <span className='test tab'>n</span> 
@@ -32,20 +32,21 @@ export default function Home() {
                     <span className='test tab'>i</span> 
                     <span className='test'>s</span>
                     </h1>
-                <div className='flex lg:hover:scale-125 duration-700'>
-                <p className='absolute text-6xl text-red-500 pl-1 font-bold'>S</p>
+                <div className='flex'>
+                <p className='absolute text-6xl text-red-500 pl-0.5 font-bold'>S</p>
                 <p className='text-6xl text-cyan-500 font-bold'>S</p>
                 <div className='pt-3.5'>
-                <h1 className='text-4xl text-right text-end'>
+                <h1 className='h-10 w-10 text-4xl text-right text-end'>
                     <span className='test'>t</span>
                     <span className='test'>o</span>
-                    <span className='test'>q</span>
+                    <span className='test'>y</span>
+                    <span className='test'>a</span>
                     <span className='test'>n</span>
                     <span >,</span>
                 </h1>
                 </div>
                 </div>
-                <h1 className='text-4xl hover:scale-125 duration-700'>
+                <h1 className='h-10 w-40 text-4xl'>
                     <span className='test'>w</span>
                     <span className='test'>e</span>
                     <span className='test'>b</span>
@@ -61,10 +62,8 @@ export default function Home() {
                     </h1>
                 </div>
                 <div className='flex hidden lg:contents'>
-                <img className='w-20 m-10' src={require('../Assets/images/jonyTheExplorerWithRemovedBg.png')} alt='Explorer Web Dev' />
-                <div className='flex gap-x-40'>
+                <img className='h-40 m-10' src={require('../Assets/images/jonyTheExplorerWithRemovedBg.png')} alt='Explorer Web Dev' />
                 <ImageHome/>
-                </div>
                 </div>
                 </header>
         </main>
