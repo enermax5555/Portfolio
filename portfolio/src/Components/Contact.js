@@ -33,7 +33,7 @@ export default function Contact() {
         return(
             <div>
                 <p className='text-white pb-1 cursor-default select-none font-sofia'>{e.pText}</p>
-                <input type={e.type} name={e.name} placeholder={e.placeholder} rows="6" cols='20' className='border-solid border-gray-600 rounded-lg p-2 w-80' />
+                <input type={e.type} name={e.name} placeholder={e.placeholder} rows={e.rows} cols='20' className='border-solid border-gray-600 rounded-lg p-2 w-80' />
             </div>
         )
     })
@@ -66,7 +66,7 @@ export default function Contact() {
                 <div className='absolute ml-28 w-20 h-10 rounded-full border-2'>
                 </div>
 
-                <img className='h-60' src={require('../Assets/images/Contact.png')}/>
+                <img className='h-60' src={require('../Assets/images/Contact.png')}alt='Contact Me'/>
 
                 </div>
                 <form ref={form} onSubmit={sendEmail}>
@@ -80,8 +80,8 @@ export default function Contact() {
                 </form>
                 <div className='grid grid-cols-8 p-5 text-white'>
                     <div className='col-start-1 col-end-2 space-y-4'>
-                        <img className='w-7'src={require('../Assets/images/Mail.png')}/>
-                        <img className='w-7'src={require('../Assets/images/Discord.png')}/>
+                        <img className='w-7'src={require('../Assets/images/Mail.png')} alt='Gmail'/>
+                        <img className='w-7'src={require('../Assets/images/Discord.png')} alt='Discord'/>
                         </div>
                      
                         <div className='col-start-2 col-end-8 space-y-5 font-sofia'>
@@ -90,7 +90,7 @@ export default function Contact() {
                         
                         <div className='col-start-4 col-end-8 text-center space-y-5'>
                             <p>Demo Cv</p>
-                            <img className='m-auto w-12 cursor-pointer hover:scale-125 duration-300'src={require('../Assets/images/Download.png')}/>
+                            <img className='m-auto w-12 cursor-pointer hover:scale-125 duration-300'src={require('../Assets/images/Download.png')} alt='Download my Demo CV'/>
                             <p>You can find me, also, on the platforms bellow:</p>
                             <Icons/>
                         </div>

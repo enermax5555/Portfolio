@@ -22,7 +22,7 @@ export default function About(){
         </div>
         <div className='grid grid-cols-1 lg:grid-cols-2 text-center text-white'>
         <div className='m-10 text-left font-sofia'>
-        <img className='m-auto pb-5 rounded-full w-10' src={require('../Assets/images/Skillgroup.png')}/>
+        <img className='m-auto pb-5 rounded-full w-10' src={require('../Assets/images/Skillgroup.png')} alt='My interests and what i like to do'/>
 
            <p className='p-2 text-center font-bold text-lg'>What I like to create:</p>
             <p className='pt-1'>-Cool looking Web-Pages and Apps.</p>
@@ -41,31 +41,31 @@ export default function About(){
             <div className='transform-gpu preserve-3d group-hover:rotate-y-full duration-1000'>
             <div className='absolute backface-hidden w-full h-full'>
 
-            <img className='m-auto pb-5 rounded-full w-10' src={require('../Assets/images/Skillgroup.png')}/>
+            <img className='m-auto pb-5 rounded-full w-10' src={require('../Assets/images/Skillgroup.png')} alt='Hover to check my skills'/>
 
 
-            <img src={require('../Assets/images/TechnologieStacks.png')}/>
+            <img src={require('../Assets/images/TechnologieStacks.png')} alt='Hover to check my skills'/>
 
             </div>
              <div className='absolute backface-hidden rotate-y-full w-full h-full'>  
 
         <p className='text-center py-1 font-bold text-xl pb-2 font-montserrat'>Skills</p>
-        <img className='m-auto rounded-full w-7' src={require('../Assets/images/Skillgroup.png')}/>
+        <img className='m-auto rounded-full w-7' src={require('../Assets/images/Skillgroup.png')} alt='My Skils'/>
             <div className='grid grid-cols-4 pt-10'>
                 <div>
-                <img className='m-auto rounded-full w-7' src={require('../Assets/images/BaseCSS.png')}/>
+                <img className='m-auto rounded-full w-7' src={require('../Assets/images/BaseCSS.png')} alt='CSS'/>
             <p className='p-3 font-sofia'><b>CSS</b> <br/> Bootstrap  <br/> Tailwind  <br/> Vanilla  <br/> SASS</p>
             </div>
             <div>
-            <img className='m-auto rounded-full w-7' src={require('../Assets/images/BaseJS.png')}/>
+            <img className='m-auto rounded-full w-7' src={require('../Assets/images/BaseJS.png')} alt='JavaScript'/>
             <p className='p-3 font-sofia'><b>JS</b> <br/> React <br/> PIXI</p>
             </div>
             <div>
-            <img className='m-auto rounded-full w-7' src={require('../Assets/images/BasePython.png')}/>
+            <img className='m-auto rounded-full w-7' src={require('../Assets/images/BasePython.png')} alt='Python'/>
                 <p className='p-3 font-sofia'><b>Python</b>  <br/> Django  <br/> Pygame</p>
             </div>
             <div>
-            <img className='m-auto rounded-full w-7' src={require('../Assets/images/BaseDB.png')}/>
+            <img className='m-auto rounded-full w-7' src={require('../Assets/images/BaseDB.png')} alt='DataBase'/>
                 <p className='p-3 font-sofia'><b>DB</b>  <br/> SQL  <br/> SQLlite</p>
             </div>
             </div>

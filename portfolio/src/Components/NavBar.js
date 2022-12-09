@@ -1,6 +1,6 @@
 import React from "react";
 import { useState } from "react";
-import Icons from "./IconsNav";
+
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 
