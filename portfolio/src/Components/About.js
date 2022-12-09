@@ -73,8 +73,8 @@ export default function About(){
             </div>
         </div>
         </div>
-        <p className='italic text-gray-400 text-center pt-5'>´Everyday, is a learning day´</p>
-            <p className='font-bold text-center text-white pb-5 '>Winston Marshall</p>
+        <p className='italic text-gray-400 text-center pt-5 font-montserrat'>´Everyday, is a learning day´</p>
+            <p className='font-bold text-center text-white pb-5 font-montserrat'>Winston Marshall</p>
         </header>
     </main>
     )

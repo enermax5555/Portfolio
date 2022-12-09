@@ -6,11 +6,19 @@
     font-family: "Poppins";
     src: url(./Assets/fonts/Poppins-ExtraBold.ttf)
 }
+@font-face {
+    font-family: "Montserrat";
+    src: url(./Assets/fonts/Montserrat.ttf)
+}
+@font-face {
+    font-family: "Montserrat-Black";
+    src: url(./Assets/fonts/Montserrat-Black.ttf)
+}
 h1 .test {
--webkit-transition: all 0.3s ease-out;
--o-transition: all 0.3s ease-out;
-transition: all 0.3s ease-out;
-transform: scale(-0.7, 1);
+-webkit-transition: all 0.5s ease-out;
+-o-transition: all 0.5s ease-out;
+transition: all 0.5s ease-out;
+
 }
 h1 .test:hover{
     color:red;

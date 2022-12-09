@@ -61,7 +61,7 @@ export default function Contact() {
 
                 <div className=''>
                 <div className='ml-40 w-50 h-28 rounded-full border-2 text-center py-10'>
-                    <p className='font-bold font-sofia text-white'>I would love to answer you!</p>
+                    <p className='font-bold font-montserrat text-white'>I would love to answer you!</p>
                 </div>
                 <div className='absolute ml-28 w-20 h-10 rounded-full border-2'>
                 </div>
@@ -70,7 +70,7 @@ export default function Contact() {
 
                 </div>
                 <form ref={form} onSubmit={sendEmail}>
-                    <div className='grid gap-y-5 justify-center text-center font-bold'>
+                    <div className='grid gap-y-5 justify-center text-center font-bold font-montserrat'>
                         <input type='hidden' name='contact_number'/>
                         {InputForms}
                     <div>
@@ -78,13 +78,13 @@ export default function Contact() {
                     </div>
                     </div>
                 </form>
-                <div className='grid grid-cols-8 p-5 text-white'>
+                <div className='grid grid-cols-8 p-5 text-white font-montserrat'>
                     <div className='col-start-1 col-end-2 space-y-4'>
                         <img className='w-7'src={require('../Assets/images/Mail.png')} alt='Gmail'/>
                         <img className='w-7'src={require('../Assets/images/Discord.png')} alt='Discord'/>
                         </div>
                      
-                        <div className='col-start-2 col-end-8 space-y-5 font-sofia'>
+                        <div className='col-start-2 col-end-8 space-y-5'>
                         <p>stoqn.sisimen@gmail.com</p>
                         <p>RedFlash#3678</p>
                         

@@ -10,7 +10,7 @@ export default function Home() {
 
             </selection>
             <header className='flex gap-x-5 lg:pl-40 lg:pt-10 pl-5 text-center select-none'>
-            <div className='mr-60 space-y-3 text-white font-montserratb font-bold'> 
+            <div className='mr-60 space-y-3 text-white  font-montserratb font-bold'> 
                <h1 className='h-20 w-40 text-6xl'>
                <span className='test'>H</span>
                <span className='test'>e</span>
@@ -21,7 +21,8 @@ export default function Home() {
                <span className='test'>h</span>
                <span className='test'>e</span>
                <span className='test'>r</span>
-               <span className='test'>e</span></h1>
+               <span className='test'>e</span>
+               </h1>
                 <h1 className='h-10 w-40 ml-10 text-4xl'>
                     <span className='test'>M</span>
                     <span className='test'>y</span>
