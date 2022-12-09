@@ -16,12 +16,12 @@ export default function About(){
             <p className='font-mono text-2xl text-white font-montserrat font-bold'>About me</p>
         </selection>
         <header className=''>
-            <div className='m-auto text-center text-white pt-3 px-10 font-sofia font-bold'>
-        <DynamicAbout className='font-sofia'/>
+            <div className='m-auto text-center text-white pt-3 px-10 font-montserrat font-bold'>
+        <DynamicAbout className=''/>
         <p className="py-2"></p>
         </div>
         <div className='grid grid-cols-1 lg:grid-cols-2 text-center text-white'>
-        <div className='m-10 text-left font-sofia'>
+        <div className='m-10 text-left font-montserrat'>
         <img className='m-auto pb-5 rounded-full w-10' src={require('../Assets/images/Skillgroup.png')} alt='My interests and what i like to do'/>
 
            <p className='p-2 text-center font-bold text-lg'>What I like to create:</p>
@@ -54,19 +54,19 @@ export default function About(){
             <div className='grid grid-cols-4 pt-10'>
                 <div>
                 <img className='m-auto rounded-full w-7' src={require('../Assets/images/BaseCSS.png')} alt='CSS'/>
-            <p className='p-3 font-sofia'><b>CSS</b> <br/> Bootstrap  <br/> Tailwind  <br/> Vanilla  <br/> SASS</p>
+            <p className='p-3 font-montserrat'><b>CSS</b> <br/> Bootstrap  <br/> Tailwind  <br/> Vanilla  <br/> SASS</p>
             </div>
             <div>
             <img className='m-auto rounded-full w-7' src={require('../Assets/images/BaseJS.png')} alt='JavaScript'/>
-            <p className='p-3 font-sofia'><b>JS</b> <br/> React <br/> PIXI</p>
+            <p className='p-3 font-montserrat'><b>JS</b> <br/> React <br/> PIXI</p>
             </div>
             <div>
             <img className='m-auto rounded-full w-7' src={require('../Assets/images/BasePython.png')} alt='Python'/>
-                <p className='p-3 font-sofia'><b>Python</b>  <br/> Django  <br/> Pygame</p>
+                <p className='p-3 font-montserrat'><b>Python</b>  <br/> Django  <br/> Pygame</p>
             </div>
             <div>
             <img className='m-auto rounded-full w-7' src={require('../Assets/images/BaseDB.png')} alt='DataBase'/>
-                <p className='p-3 font-sofia'><b>DB</b>  <br/> SQL  <br/> SQLlite</p>
+                <p className='p-3 font-montserrat'><b>DB</b>  <br/> SQL  <br/> SQLlite</p>
             </div>
             </div>
             </div>

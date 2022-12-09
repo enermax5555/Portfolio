@@ -10,7 +10,7 @@ export default function Home() {
 
             </selection>
             <header className='flex gap-x-5 lg:pl-40 lg:pt-10 pl-5 text-center select-none'>
-            <div className='mr-60 space-y-3 text-white font-montserrat font-bold shadow-sm'> 
+            <div className='mr-60 space-y-3 text-white font-montserratb font-bold'> 
                <h1 className='h-20 w-40 text-6xl'>
                <span className='test'>H</span>
                <span className='test'>e</span>

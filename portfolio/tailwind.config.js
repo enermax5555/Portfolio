@@ -20,7 +20,8 @@ module.exports = {
       fontFamily: {
         poppins: ['Poppins', 'sans-serif'],
         sofia: ['SofiaSans', 'sans'],
-        montserrat: ['Montserrat', 'serif']
+        montserrat: ['Montserrat', 'sans-serif'],
+        montserratb: ['Montserrat-Black','sans-serif']
       }
     },
   },

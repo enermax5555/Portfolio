@@ -14,7 +14,7 @@ export default function Projects() {
             ref:'https://github.com/enermax5555/3Dprinetrs',
             src: printingIMG,
             alt:'3D printing',
-            text:'3D printing Project created only via HTML, css and some js'
+            text:'3D printing Project'
         },
          {
             ref:'https://github.com/enermax5555/The-Magic-Knight---Love',
@@ -31,7 +31,7 @@ export default function Projects() {
                 <a href={item.ref}>
                     <img className='rounded-lg h-40 w-80 lg:blur hover:blur-none hover:scale-125 duration-300 cursor-pointer' src={item.src} alt={item.alt} />
                     </a>
-                    <p className='py-5 cursor-default font-sofia'>{item.text}</p>
+                    <p className='py-5 cursor-default font-montserratb font-bold'>{item.text}</p>
                 
             </div>
         )

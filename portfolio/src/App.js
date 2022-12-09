@@ -11,7 +11,7 @@ function App() {
     <main>
        
   <div className="bg-slate-900">
-
+      {/* <DancingLines/> */}
       <NavBar/>   
       <Home/>
       <About/>
