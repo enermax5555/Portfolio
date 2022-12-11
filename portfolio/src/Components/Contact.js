@@ -2,6 +2,8 @@ import React from "react"
 import { useRef } from "react"
 import emailjs from 'emailjs-com'
 import Icons from "./IconsNav";
+import ContactForm from "./ContactForm";
+import oldContactForm from "./oldContactForm";
 
 export default function Contact() {
     const form=useRef();
@@ -72,10 +74,11 @@ export default function Contact() {
                 <form ref={form} onSubmit={sendEmail}>
                     <div className='grid gap-y-5 justify-center text-center font-bold font-montserrat'>
                         <input type='hidden' name='contact_number'/>
-                        {InputForms}
-                    <div>
-                        <button type='submit' value='Send' className='bg-blue-500 text-white rounded px-5 py-2 hover:bg-blue-700 hover:shadow-lg duration-300'>SEND</button>
-                    </div>
+                    <ContactForm/>
+
+                         <button type='submit' value='Send' className='bg-blue-500 text-white rounded px-5 py-2 hover:bg-blue-700 hover:shadow-lg duration-300'>SEND</button>
+
+
                     </div>
                 </form>
                 <div className='grid grid-cols-8 p-5 text-white font-montserrat'>
@@ -93,9 +96,11 @@ export default function Contact() {
                             <img className='m-auto w-12 cursor-pointer hover:scale-125 duration-300'src={require('../Assets/images/Download.png')} alt='Download my Demo CV'/>
                             <p>You can find me, also, on the platforms bellow:</p>
                             <Icons/>
+
                         </div>
                         </div>
                         </div>     
+
             </header>
         </main>
     )

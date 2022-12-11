@@ -1,6 +1,7 @@
 
 import React from "react"
 import ImageHome from "./ImageHome"
+import DancingLines from "react-dancing-lines"
 
 export default function Home() {
     return(
@@ -10,7 +11,9 @@ export default function Home() {
 
             </selection>
             <header className='flex gap-x-5 lg:pl-40 lg:pt-10 pl-5 text-center select-none'>
+                
             <div className='mr-60 space-y-3 text-white  font-montserratb font-bold'> 
+         
                <h1 className='h-20 w-40 text-6xl'>
                <span className='test'>H</span>
                <span className='test'>e</span>
@@ -66,6 +69,7 @@ export default function Home() {
                 <img className='h-40 m-10' src={require('../Assets/images/jonyTheExplorerWithRemovedBg.png')} alt='Explorer Web Dev' />
                 <ImageHome/>
                 </div>
+                
                 </header>
         </main>
     )
