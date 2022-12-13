@@ -37,8 +37,7 @@ export default function Home() {
                     <span className='test'>s</span>
                     </h1>
                 <div className='flex'>
-                <p className='absolute text-6xl text-red-500 pl-0.5 font-bold'>S</p>
-                <p className='text-6xl text-cyan-500 font-bold'>S</p>
+                <img className='w-10' src={require('../Assets/images/Logo.png')}/>
                 <div className='pt-3.5'>
                 <h1 className='h-10 w-10 text-4xl text-right text-end'>
                     <span className='test'>t</span>
