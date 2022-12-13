@@ -37,7 +37,7 @@ export default function Projects() {
         )
     })
     return(
-        <main id='Projects' className='border-2 border-gray-600 border-solid lg:m-20 rounded-lg hover:border-gray-400'>
+        <main id='Projects' className='border-2 border-gray-600 border-solid lg:m-20 lg:mb-10 rounded-lg hover:border-gray-400'>
             <selection className='flex p-10 justify-center select-none'>
                 <p className='font-mono text-3xl text-white font-montserrat'>PROJECTS </p>
             </selection>

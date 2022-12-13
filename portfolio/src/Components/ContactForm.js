@@ -21,13 +21,10 @@ export default function ContactForm() {
 e.target.reset()
 };
     return (
-        <main>
+        <main className="font-montserrat">
                 <form ref={form} onSubmit={sendEmail}>
             <AccountCircle sx={{ color: 'white'}} />
-                <div className='space-y-5'>
-       
-       <div className='space-x-5'>
-
+                <div className='m-5 space-y-5'>
         <TextField sx={{
         "& .MuiInputBase-root": {
             color: 'white'
@@ -36,7 +33,7 @@ e.target.reset()
             color: 'white'
         },
         }}
-        name="user_name" label="Enter your name" variant="filled"  />
+        name="user_name" label="Enter your name" variant="filled" fullWidth />
         <TextField sx={{
         "& .MuiInputBase-root": {
             color: 'white'
@@ -45,10 +42,7 @@ e.target.reset()
             color: 'white'
         },
         }}
-        name="user_email" label="Enter your email" variant="filled"  />
-
-        </div>
-
+        name="user_email" label="Enter your email" variant="filled" fullWidth  />
         <TextField sx={{
         "& .MuiInputBase-root": {
             color: 'white'
@@ -61,8 +55,6 @@ e.target.reset()
         <Button variant="contained" type='submit' value='Send' endIcon={<SendIcon />}>
         Send
         </Button>
-        
-
         </div>
 
         </form>
