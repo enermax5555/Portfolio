@@ -7,7 +7,7 @@ export default function Contact() {
     const form=useRef();
     return(
         <main id='Contact' className='lg:p- lg:pt-5 rounded-lg hover:border-gray-400'>
-            <selection className='flex justify-center py-5 select-none'>
+            <selection className='flex justify-center mb-5 select-none'>
         <p className='font-mono text-2xl text-white font-montserrat font-bold'>Contact Me</p>        
             </selection>
 
@@ -15,13 +15,13 @@ export default function Contact() {
 
 
                 <div className=''>
-                <div className='ml-40 w-50 h-28 rounded-full border-2 text-center py-10'>
+                <div className='ml-40 mt-10 w-50 h-28 rounded-full border-2 text-center py-10'>
                     <p className='font-bold font-montserrat text-white'>I would love to answer you!</p>
                 </div>
                 <div className='absolute ml-28 w-20 h-10 rounded-full border-2'>
                 </div>
 
-                <img className='h-60' src={require('../Assets/images/Contact1.png')}alt='Contact Me'/>
+                <img className='h-60' src={require('../Assets/images/Contact.png')}alt='Contact Me'/>
 
                 </div>
                     <div className='justify-center text-center font-bold font-montserrat'>
