@@ -5,7 +5,7 @@ import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 
 export default function NavBar() {
-    const [arrow, setArrow] = useState(true);
+    const [arrow, setArrow] = useState(false);
     return (
 
         <main className='flex justify-center lg:fixed text-white cursor-default font-bold'>

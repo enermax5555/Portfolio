@@ -2,6 +2,7 @@ import React from "react"
 import { useRef } from "react"
 import Icons from "./IconsNav";
 import ContactForm from "./ContactForm";
+import ContactImage from './ContactImage'
 
 export default function Contact() {
     const form=useRef();
@@ -20,7 +21,9 @@ export default function Contact() {
                 </div>
                 <div className='absolute ml-28 w-20 h-10 rounded-full border-2'>
                 </div>
-                <img className='h-60' src={require('../Assets/images/Contact.png')}alt='Contact Me'/>
+                <div className='w-40'>
+                <ContactImage/>
+                </div>
                 </div>
                     <div className='justify-center text-center font-montserrat'>
                     <ContactForm/>
