@@ -13,7 +13,7 @@ export default function About(){
     return(
     <main id='About' className='border-2 border-gray-600 border-solid lg:m-20 rounded-lg hover:border-gray-400 duration:700'>
         <selection className='flex justify-center pt-10 select-none'>
-            <p className='font-mono text-2xl text-white font-montserrat font-bold'>About me</p>
+            <p className='font-mono text-3xl text-white font-montserrat'>ABOUT ME</p>
         </selection>
         <header className=''>
             <div className='m-auto text-center text-white pt-3 px-10 font-montserrat font-bold'>

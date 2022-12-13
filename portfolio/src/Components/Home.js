@@ -66,7 +66,7 @@ export default function Home() {
                     </h1>
                 </div>
                 <div className='flex hidden lg:contents'>
-                <img className='h-40 m-10' src={require('../Assets/images/jonyTheExplorerWithRemovedBg.png')} alt='Explorer Web Dev' />
+                <img className='h-40 px-30 ml-40 mr-10 mt-20' src={require('../Assets/images/jonyTheExplorerWithRemovedBgNEW.png')} alt='Explorer Web Dev' />
                 <ImageHome/>
                 </div>
                 

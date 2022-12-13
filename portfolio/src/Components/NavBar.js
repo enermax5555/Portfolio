@@ -12,8 +12,11 @@ export default function NavBar() {
             <header className="flex space-x-10 p-1">
                 <div className='w-80 lg:w-auto bg-black p-2 select-none'>
                     <div className='hidden lg:contents'>
-                        <div className='absolute pl-5 text-red-500 text-7xl'>S</div>
-                        <div className='text-cyan-400 pl-4 text-7xl'> S </div>
+                        {/* <div className='absolute pl-5 text-red-500 text-7xl'>S</div>
+                        <div className='text-cyan-400 pl-4 text-7xl'> S </div> */}
+                        <div className=''>
+                        <img className='h-10 m-auto p-auto' src={require('../Assets/images/Logo.png')}/>
+                        </div>
                     </div>
                     <p className='text-center text-base pb-2 font-montserrat'>Stoqn</p>
                     <p className='text-center text-xs text-gray-400 font-montserrat'>Web Developer</p>

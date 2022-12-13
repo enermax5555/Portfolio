@@ -21,7 +21,7 @@ export default function Contact() {
                 <div className='absolute ml-28 w-20 h-10 rounded-full border-2'>
                 </div>
 
-                <img className='h-60' src={require('../Assets/images/Contact.png')}alt='Contact Me'/>
+                <img className='h-60' src={require('../Assets/images/Contact1.png')}alt='Contact Me'/>
 
                 </div>
                     <div className='justify-center text-center font-bold font-montserrat'>
