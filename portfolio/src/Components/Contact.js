@@ -4,6 +4,7 @@ import Icons from "./IconsNav";
 import ContactForm from "./ContactForm";
 import ContactImage from './ContactImage'
 
+
 export default function Contact() {
     const form=useRef();
     return(
