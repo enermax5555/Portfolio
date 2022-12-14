@@ -30,12 +30,12 @@ export default function Contact() {
                     </div>
                 <div className='grid grid-cols-8 p-5 text-white font-montserrat'>                 
                         <div className='col-start-1 col-end-8 space-y-5 '>
-                        
+                        <div></div>
                         <div className='text-center space-y-5 mt-20'>
                             <p>Download Demo CV here:</p>
                             
-                            <img className='m-auto w-12 cursor-pointer hover:scale-125 duration-300'src={require('../Assets/images/Download.png')} alt='Download my Demo CV'/>
-
+                            <img className='m-auto w-12 cursor-pointer animate-bounce duration-400 hover:animate-none'src={require('../Assets/images/Download.png')} alt='Download my Demo CV'/>
+                            
                             <p>You can find me, also, on the platforms bellow:</p>
                             <Icons/>
 
