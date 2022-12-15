@@ -4,6 +4,7 @@ import { useState, useEffect } from "react"
 export default function ContactImage() {
 const [imageFrame, setimageFrame] = useState(true)
 const [counter, setCounter] = useState(0);
+
 useEffect(() => {
 const timeout = setTimeout(() => {
     setCounter(counter + 1)
