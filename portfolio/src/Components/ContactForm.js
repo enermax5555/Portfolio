@@ -36,7 +36,7 @@ e.target.reset()
             color: 'white'
         },
         }}
-        name="user_name" label="Enter your name" variant="outlined" fullWidth />
+        name="user_name" type="text" label="Enter your name" variant="outlined" fullWidth required/>
         <TextField sx={{
         "& .MuiOutlinedInput-root": {
         background: "rgb(20, 30, 60)"
@@ -48,7 +48,8 @@ e.target.reset()
             color: 'white'
         },
         }}
-        name="user_email" label="Enter your email" variant="outlined" fullWidth  />
+        name="user_email" type="email" label="Enter your email" variant="outlined" fullWidth required
+        />
         <TextField sx={{
         "& .MuiOutlinedInput-root": {
         background: "rgb(20, 30, 60)"
@@ -60,7 +61,7 @@ e.target.reset()
             color: 'white'
         },
         }}
-        name="message" multiline rows={5} fullWidth label="Enter your message" variant="outlined"  />
+        name="message" multiline rows={5} fullWidth label="Enter your message" variant="outlined" required/>
         <Button variant="contained" type='submit' value='Send' endIcon={<SendIcon />}>
         Send
         </Button>
