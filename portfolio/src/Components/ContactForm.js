@@ -1,5 +1,5 @@
 import * as React from "react";
-import { Box, TextField, Grid} from "@mui/material";
+import { TextField } from "@mui/material";
 import AccountCircle from "@mui/icons-material/AccountCircle";
 import emailjs from 'emailjs-com'
 import { useRef } from "react";
@@ -26,6 +26,9 @@ e.target.reset()
             <AccountCircle sx={{ color: 'white'}} />
                 <div className='m-5 space-y-5'>
         <TextField sx={{
+        "& .MuiOutlinedInput-root": {
+        background: "rgb(20, 30, 60)"
+        },
         "& .MuiInputBase-root": {
             color: 'white'
         },
@@ -33,8 +36,11 @@ e.target.reset()
             color: 'white'
         },
         }}
-        name="user_name" label="Enter your name" variant="filled" fullWidth />
+        name="user_name" label="Enter your name" variant="outlined" fullWidth />
         <TextField sx={{
+        "& .MuiOutlinedInput-root": {
+        background: "rgb(20, 30, 60)"
+        },
         "& .MuiInputBase-root": {
             color: 'white'
         },
@@ -42,8 +48,11 @@ e.target.reset()
             color: 'white'
         },
         }}
-        name="user_email" label="Enter your email" variant="filled" fullWidth  />
+        name="user_email" label="Enter your email" variant="outlined" fullWidth  />
         <TextField sx={{
+        "& .MuiOutlinedInput-root": {
+        background: "rgb(20, 30, 60)"
+        },
         "& .MuiInputBase-root": {
             color: 'white'
         },
@@ -51,7 +60,7 @@ e.target.reset()
             color: 'white'
         },
         }}
-        name="message" multiline rows={5} fullWidth label="Enter your message" variant="filled"  />
+        name="message" multiline rows={5} fullWidth label="Enter your message" variant="outlined"  />
         <Button variant="contained" type='submit' value='Send' endIcon={<SendIcon />}>
         Send
         </Button>
