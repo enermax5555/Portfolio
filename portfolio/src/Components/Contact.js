@@ -3,6 +3,7 @@ import { useRef } from "react"
 import Icons from "./IconsNav";
 import ContactForm from "./ContactForm";
 import ContactImage from './ContactImage'
+import { Tooltip } from "@mui/material";
 
 
 export default function Contact() {
@@ -31,13 +32,16 @@ export default function Contact() {
                 </div>
                 <div className='grid grid-cols-8 p-5 text-white font-montserrat'>
                     <div className='col-start-1 col-end-8 space-y-5 '>
-                        <div></div>
+                        <div className='text-center mt-10'>
+                        
+                        </div>
                         <div className='text-center space-y-5 py-10 m-auto'>
-                            <p>Download Demo CV here:</p>
+                            <p>Download Demo CV here</p>
 
                             <img className='m-auto w-12 cursor-pointer animate-bounce duration-400 hover:animate-none' src={require('../Assets/images/Download.png')} alt='Download my Demo CV' />
 
-                            <p>You can find me, also, on the platforms bellow:</p>
+                            <p>stoqn.sisimen@gmail.com</p>
+                            <p>You can find me, also, on the platforms bellow</p>
                             <Icons />
 
                         </div>

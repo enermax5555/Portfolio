@@ -8,19 +8,22 @@ export default function Projects() {
             ref:'https://github.com/enermax5555/ProMed',
             src: promedIMG,
             alt:'ProMed Bulgaria',
-            text:'Python-Django project'
+            text:'Python-Django project',
+
         },
         {
             ref:'https://github.com/enermax5555/3Dprinetrs',
             src: printingIMG,
             alt:'3D printing',
-            text:'3D printing Project'
+            text:'3D printing Project',
+
         },
          {
             ref:'https://github.com/enermax5555/The-Magic-Knight---Love',
             src: knightIMG,
             alt:'The Magic Knight 2D lua',
-            text:'Lua extension - Love2D pure script game'
+            text:'Lua extension - Love2D pure script game',
+
         },
     
 
@@ -29,7 +32,9 @@ export default function Projects() {
         return (
             <div>
                 <a href={item.ref}>
+
                     <img className='rounded-lg h-40 w-80 lg:blur hover:blur-none hover:scale-125 duration-300 cursor-pointer' src={item.src} alt={item.alt} />
+
                     </a>
                     <p className='py-5 cursor-default font-montserrat font-bold'>{item.text}</p>
                 
