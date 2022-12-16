@@ -10,7 +10,7 @@ export default function Contact() {
     return(
         <main id='Contact' className='lg:p- lg:pt-5 rounded-lg hover:border-gray-400'>
             <selection className='flex justify-center mb-5 select-none'>
-        <p className='font-mono text-2xl text-white font-montserrat font-bold'>Contact Me</p>        
+        <p className='text-2xl text-white font-montserrat font-bold'>Contact Me</p>        
             </selection>
 
             <header className='grid lg:grid-cols-3'>
@@ -32,7 +32,7 @@ export default function Contact() {
                 <div className='grid grid-cols-8 p-5 text-white font-montserrat'>                 
                         <div className='col-start-1 col-end-8 space-y-5 '>
                         <div></div>
-                        <div className='text-center space-y-5 mt-20'>
+                        <div className='text-center space-y-5 py-10 m-auto'>
                             <p>Download Demo CV here:</p>
                             
                             <img className='m-auto w-12 cursor-pointer animate-bounce duration-400 hover:animate-none'src={require('../Assets/images/Download.png')} alt='Download my Demo CV'/>

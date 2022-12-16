@@ -1,17 +1,25 @@
 
 import React from "react"
 import ImageHome from "./ImageHome"
+import BackgroundIMG from "../Assets/images/Logo.png"
 import DancingLines from "react-dancing-lines"
 
 export default function Home() {
     return(
         
         <main id='Home'>
+               <div className="bg-fixed"
+        style={{backgroundImage: `url(${BackgroundIMG})`,
+                backgroundSize: 380,
+                backgroundRepeat: "no-repeat",
+                backgroundPosition: "center",
+                }}>
+
             <selection className='flex pt-10 justify-center select-none'>
 
             </selection>
             <header className='flex gap-x-5 lg:pl-40 lg:pt-10 pl-5 text-center select-none'>
-
+         
             <div className='mr-60 space-y-3 text-white  font-montserratb font-bold'> 
 
                <h1 className='h-20 w-40 text-6xl'>
@@ -68,8 +76,9 @@ export default function Home() {
                 <img className='h-40 px-30 ml-40 mr-10 mt-20' src={require('../Assets/images/jonyTheExplorerWithRemovedBgNEW.png')} alt='Explorer Web Dev' />
                 <ImageHome/>
                 </div>
-                
                 </header>
+                </div>
+
         </main>
     )
 }
