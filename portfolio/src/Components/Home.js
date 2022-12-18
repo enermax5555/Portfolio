@@ -1,4 +1,3 @@
-
 import React from "react"
 import ImageHome from "./ImageHome"
 import BackgroundIMG from "../Assets/images/Logo.png"
