@@ -36,9 +36,9 @@ export default function AboutCard() {
         {
             alt: 'Lua',
             src: luaIMG,
-            label: 'CSS',
-            t1: 'Bootstrap',
-            t2: 'Tailwind'
+            label: 'Lua',
+            t1: 'Love2D',
+            t2: 'WoWlua'
         }
     ]
 
@@ -114,9 +114,9 @@ export default function AboutCard() {
                 <div className='mt-10'>
             <button type="button"
                     onClick={() => setflipcard(!flipcard)} 
-                    class="text-white font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2
+                    class="text-white font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 w-40
                             bg-gradient-to-br from-purple-700 to-blue-700
-                            hover:bg-gradient-to-bl">Check other</button>
+                            hover:bg-gradient-to-bl">{`${flipcard ? 'Back' : 'Check other'}`}</button>
                                
                 </div>
             </div>
