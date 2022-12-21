@@ -3,7 +3,7 @@ import cssIMG from '../Assets/images/BaseCSS.png'
 import jsIMG from '../Assets/images/BaseJS.png'
 import pythonIMG from '../Assets/images/BasePython.png'
 import luaIMG from '../Assets/images/Lua.png'
-import gitIMG from '../Assets/images/git.png'
+import gitIMG from '../Assets/images/github.png'
 import dbIMG from '../Assets/images/BaseDB.png'
 import htmlIMG from '../Assets/images/HTML.png'
 import otherIMG from '../Assets/images/othertech.png'
@@ -95,10 +95,10 @@ export default function AboutCard() {
         <main>
             <div className='group m-10'>
                 
-                    <div className={`${flipcard ? 'group-first:rotate-y-full' : 'ml-7'} absolute backface-hidden duration-1000`}>
+                    <div className={`${flipcard ? 'group-first:rotate-y-full' : ''} absolute backface-hidden lg:ml-6 ml-12 duration-1000`}>
                         <p className='text-center py-1 font-bold text-xl pb-2 font-montserrat'>Skills</p>
                         <img className='m-auto rounded-full w-7' src={skillIMG} alt='My Skils' />
-                        <div className='grid grid-cols-4 pt-10'>
+                        <div className='grid lg:grid-cols-4 grid-cols-2 pt-10 text-center'>
                             {FrontCard}
                         </div>
                     </div>
@@ -106,7 +106,7 @@ export default function AboutCard() {
                     <div className={`${flipcard ? '' : 'group-last:rotate-y-full'} backface-hidden duration-1000`}>
                         <p className='text-center py-1 font-bold text-xl pb-2 font-montserrat'>Skills</p>
                         <img className='m-auto rounded-full w-7' src={skillIMG} alt='My Skils' />
-                        <div className='grid grid-cols-4 pt-10'>
+                        <div className='grid lg:grid-cols-4 grid-cols-2 pt-10'>
                             {BackCard}
                         </div>
                     </div>
