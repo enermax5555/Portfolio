@@ -1,82 +1,83 @@
 import React from "react"
 import ImageHome from "./ImageHome"
 import BackgroundIMG from "../Assets/images/Logo.png"
-import DancingLines from "react-dancing-lines"
+
 
 export default function Home() {
-    return(
-        
+    return (
+
         <main id='Home'>
-               <div className="bg-fixed"
-        style={{backgroundImage: `url(${BackgroundIMG})`,
-                backgroundSize: 360,
-                backgroundRepeat: "no-repeat",
-                backgroundPosition: "center",
+            <div className="bg-fixed"
+                style={{
+                    backgroundImage: `url(${BackgroundIMG})`,
+                    backgroundSize: 360,
+                    backgroundRepeat: "no-repeat",
+                    backgroundPosition: "center",
                 }}>
 
-            <selection className='flex pt-10 justify-center select-none'>
+                <selection className='flex pt-10 justify-center select-none'>
 
-            </selection>
-            <header className='flex gap-x-5 lg:pl-40 lg:pt-10 pl-5 text-center select-none'>
-         
-            <div className='mr-60 space-y-3 text-white  font-montserratb font-bold'> 
+                </selection>
+                <header className='flex gap-x-5 lg:pl-40 lg:pt-10 pl-5 text-center select-none'>
 
-               <h1 className='h-20 w-40 text-6xl'>
-               <span className='test'>H</span>
-               <span className='test'>e</span>
-               <span className='test'>l</span>
-               <span className='test'>l</span>
-               <span className='test'>o</span>
-               <span className='test tab'>T</span>
-               <span className='test'>h</span>
-               <span className='test'>e</span>
-               <span className='test'>r</span>
-               <span className='test'>e</span>
-               </h1>
-                <h1 className='h-10 w-40 ml-10 text-4xl'>
-                    <span className='test'>M</span>
-                    <span className='test'>y</span>
-                    <span className='test tab'>n</span> 
-                    <span className='test'>a</span>
-                    <span className='test'>m</span>
-                    <span className='test'>e</span> 
-                    <span className='test tab'>i</span> 
-                    <span className='test'>s</span>
-                    </h1>
-                <div className='flex'>
-                <img className='w-10' src={require('../Assets/images/Logo.png')}/>
-                <div className='pt-3.5'>
-                <h1 className='h-10 w-10 text-4xl text-right text-end'>
-                    <span className='test'>t</span>
-                    <span className='test'>o</span>
-                    <span className='test'>y</span>
-                    <span className='test'>a</span>
-                    <span className='test'>n</span>
-                    <span >,</span>
-                </h1>
-                </div>
-                </div>
-                <h1 className='h-10 w-40 text-4xl'>
-                    <span className='test'>w</span>
-                    <span className='test'>e</span>
-                    <span className='test'>b</span>
-                    <span className='test tab'>d</span>
-                    <span className='test'>e</span>
-                    <span className='test'>v</span>
-                    <span className='test'>e</span>
-                    <span className='test'>l</span>
-                    <span className='test'>o</span>
-                    <span className='test'>p</span>
-                    <span className='test'>e</span>
-                    <span className='test'>r</span>
-                    </h1>
-                </div>
-                <div className='flex hidden lg:contents'>
-                <img className='h-40 px-30 ml-40 mr-10 mt-20' src={require('../Assets/images/jonyTheExplorerWithRemovedBgNEW.png')} alt='Explorer Web Dev' />
-                <ImageHome/>
-                </div>
+                    <div className='mr-60 space-y-3 text-white  font-montserratb font-bold'>
+
+                        <h1 className='h-20 w-40 text-6xl'>
+                            <span className='test'>H</span>
+                            <span className='test'>e</span>
+                            <span className='test'>l</span>
+                            <span className='test'>l</span>
+                            <span className='test'>o</span>
+                            <span className='test tab'>T</span>
+                            <span className='test'>h</span>
+                            <span className='test'>e</span>
+                            <span className='test'>r</span>
+                            <span className='test'>e</span>
+                        </h1>
+                        <h1 className='h-10 w-40 ml-10 text-4xl'>
+                            <span className='test'>M</span>
+                            <span className='test'>y</span>
+                            <span className='test tab'>n</span>
+                            <span className='test'>a</span>
+                            <span className='test'>m</span>
+                            <span className='test'>e</span>
+                            <span className='test tab'>i</span>
+                            <span className='test'>s</span>
+                        </h1>
+                        <div className='flex'>
+                            <img className='w-10' src={require('../Assets/images/Logo.png')} />
+                            <div className='pt-3.5'>
+                                <h1 className='h-10 w-10 text-4xl text-right text-end'>
+                                    <span className='test'>t</span>
+                                    <span className='test'>o</span>
+                                    <span className='test'>y</span>
+                                    <span className='test'>a</span>
+                                    <span className='test'>n</span>
+                                    <span >,</span>
+                                </h1>
+                            </div>
+                        </div>
+                        <h1 className='h-10 w-40 text-4xl'>
+                            <span className='test'>w</span>
+                            <span className='test'>e</span>
+                            <span className='test'>b</span>
+                            <span className='test tab'>d</span>
+                            <span className='test'>e</span>
+                            <span className='test'>v</span>
+                            <span className='test'>e</span>
+                            <span className='test'>l</span>
+                            <span className='test'>o</span>
+                            <span className='test'>p</span>
+                            <span className='test'>e</span>
+                            <span className='test'>r</span>
+                        </h1>
+                    </div>
+                    <div className='flex hidden lg:contents'>
+                        <img className='h-40 px-30 ml-40 mr-10 mt-20' src={require('../Assets/images/jonyTheExplorerWithRemovedBgNEW.png')} alt='Explorer Web Dev' />
+                        <ImageHome />
+                    </div>
                 </header>
-                </div>
+            </div>
 
         </main>
     )
