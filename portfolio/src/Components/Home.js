@@ -9,7 +9,7 @@ export default function Home() {
         <main id='Home'>
                <div className="bg-fixed"
         style={{backgroundImage: `url(${BackgroundIMG})`,
-                backgroundSize: 380,
+                backgroundSize: 360,
                 backgroundRepeat: "no-repeat",
                 backgroundPosition: "center",
                 }}>
