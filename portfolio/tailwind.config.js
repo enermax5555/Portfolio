@@ -30,6 +30,7 @@ module.exports = {
   },
   plugins: [
     RotateY,
+    require('tw-elements/dist/plugin'),
     // require('flowbite/plugin'),
   ],
 }
