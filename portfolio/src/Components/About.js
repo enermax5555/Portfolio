@@ -1,5 +1,7 @@
 import Typical from 'react-typical'
 import AboutCard from './AboutCard'
+// import 'tw-elements'
+import 'flowbite'
 export default function About() {
     const DynamicAbout = (e) => {
         return (
@@ -28,9 +30,11 @@ export default function About() {
                 <div className='grid grid-cols-1 lg:grid-cols-2 text-center text-white'>
 
                     <div id='about-carousel' data-carousel="static" className='border-2 border-solid rounded-lg'>
-                        <div className='m-10 h-60 border-2 border-solid rounded-lg'>
-                            <div className='hidden duration-500 ease-in-out' data-carousel-item>
-                                <p> This is the first slide</p> 
+                        <div className='m-10 h-60 border-2 border-solid rounded-lg overflow-hidden'>
+                            <div className='hidden duration-500 ease-in-out' data-carousel-item='active'>
+                               <div>
+                                <p> This is the first slide</p>
+                                </div>
                             </div>
                             <div className='hidden duration-500 ease-in-out' data-carousel-item>
                                 <p> This is the second slide</p>
@@ -45,13 +49,13 @@ export default function About() {
                             <button className='w-3 h-3 rounded-full bg-gray-500' type='button' data-carousel-slide-to='2'></button>
                         </div>
                     </div>
+                    {/* <script src="https://unpkg.com/flowbite@1.6.0/dist/flowbite.min.js"></script> */}
                     
                     <AboutCard />
                 </div>
                 <p className='italic text-gray-400 text-center pt-5 font-montserrat'>´Everyday, is a learning day´</p>
                 <p className='font-bold text-center text-white pb-5 font-montserrat'>Winston Marshall</p>
             </header>
-
         </main>
         
     )
