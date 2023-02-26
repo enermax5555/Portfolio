@@ -30,17 +30,15 @@ export default function About() {
                 <div className='grid grid-cols-1 lg:grid-cols-2 text-center text-white'>
 
                     <div id='about-carousel' data-carousel="static" className='border-2 border-solid rounded-lg'>
-                        <div className='m-10 h-60 border-2 border-solid rounded-lg overflow-hidden'>
+                        <div className='relative overflow-hidden m-10 h-60 border-2 border-solid rounded-lg'>
                             <div className='hidden duration-500 ease-in-out' data-carousel-item='active'>
-                               <div>
-                                <p> This is the first slide</p>
-                                </div>
+                                <img src={require('../Assets/images/CodeAbout.png')} className=''></img>
                             </div>
                             <div className='hidden duration-500 ease-in-out' data-carousel-item>
-                                <p> This is the second slide</p>
+                                <img src={require('../Assets/images/SportsAbout.png')} className=''></img>
                             </div>
                             <div className='hidden duration-500 ease-in-out' data-carousel-item>
-                                <p> This is the third slide </p>
+
                             </div>
                         </div>  
                         <div className='space-x-3 bottom-5'>
