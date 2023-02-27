@@ -18,7 +18,7 @@ export default function NavBar() {
                         <img className='h-10 m-auto p-auto' src={require('../Assets/images/Logo.png')}/>
                         </div>
                     </div>
-                    <p className='text-center text-base pb-2 font-montserrat'>Stoqn</p>
+                    <p className='text-center text-base pb-2 font-montserrat'>Stoyan</p>
                     <p className='text-center text-xs text-gray-400 font-montserrat'>Web Developer</p>
                     <hr className='mt-3' />
 

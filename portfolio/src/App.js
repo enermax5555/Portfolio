@@ -22,9 +22,13 @@ function App() {
       </div>
 
       </div>
-
   </main>
   );
+}
+
+window.onload = function () {
+  let loadTime = window.performance.timing.domContentLoadedEventEnd-window.performance.timing.navigationStart; 
+  console.log('Page load time is '+ loadTime/1000 + 's');
 }
 
 export default App;

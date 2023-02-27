@@ -36,7 +36,7 @@ export default function Projects() {
                     <img className='rounded-lg h-40 w-80 lg:blur hover:blur-none hover:scale-125 duration-300 cursor-pointer' src={item.src} alt={item.alt} />
 
                     </a>
-                    <p className='py-5 cursor-default font-montserrat font-bold'>{item.text}</p>
+                    <p className='py-5 cursor-default font-montserrat'>{item.text}</p>
                 
             </div>
         )
