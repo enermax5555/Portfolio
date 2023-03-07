@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.e2904f30.css",
+    "main.js": "/Portfolio/static/js/main.69a32046.js",
+    "static/js/787.1ed0c42c.chunk.js": "/Portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/ProMed.png": "/Portfolio/static/media/ProMed.469f4f9465838cfd41ce.png",
+    "static/media/TheMagicKnight.png": "/Portfolio/static/media/TheMagicKnight.34649e6fadb390c3ccb7.png",
+    "static/media/ResponsiveAboutNew.gif": "/Portfolio/static/media/ResponsiveAboutNew.a65229fa79586907f432.gif",
+    "static/media/3Dprinting.png": "/Portfolio/static/media/3Dprinting.2b5ae0a9547a810cf314.png",
+    "static/media/SportsAbout.png": "/Portfolio/static/media/SportsAbout.ae0a9593cf17a43ad508.png",
+    "static/media/Contact3.png": "/Portfolio/static/media/Contact3.94a2cda5fda0f4e4475a.png",
+    "static/media/Contact1.png": "/Portfolio/static/media/Contact1.d5762f11d7c6d7696e33.png",
+    "static/media/Montserrat.ttf": "/Portfolio/static/media/Montserrat.3faa3eef13649db02044.ttf",
+    "static/media/jonyTheExplorerWithRemovedBgNEW.png": "/Portfolio/static/media/jonyTheExplorerWithRemovedBgNEW.3e888dd8d7a752d7a810.png",
+    "static/media/Montserrat-Black.ttf": "/Portfolio/static/media/Montserrat-Black.08437fd0aa82576d3678.ttf",
+    "static/media/Poppins-ExtraBold.ttf": "/Portfolio/static/media/Poppins-ExtraBold.01849ee091e1762a5dd5.ttf",
+    "static/media/CodeAbout.png": "/Portfolio/static/media/CodeAbout.6b144f4212dd21857bf7.png",
+    "static/media/DOMLoadAboutNew.gif": "/Portfolio/static/media/DOMLoadAboutNew.90a1a8e9c0ab0a669256.gif",
+    "static/media/BaseCSS.png": "/Portfolio/static/media/BaseCSS.5179b1516098cb21ba19.png",
+    "static/media/Logo.png": "/Portfolio/static/media/Logo.76d24da0080d2cf600d6.png",
+    "static/media/Lua.png": "/Portfolio/static/media/Lua.8a7d9cb71e7790b07405.png",
+    "static/media/BasePython.png": "/Portfolio/static/media/BasePython.2cf3e9cc4021d7e228b2.png",
+    "static/media/BaseDB.png": "/Portfolio/static/media/BaseDB.ab49448908b500a6cbc0.png",
+    "static/media/Skillgroup.png": "/Portfolio/static/media/Skillgroup.5310fcb51ee25acda254.png",
+    "static/media/BaseJS.png": "/Portfolio/static/media/BaseJS.3dfb665e058d08c99f28.png",
+    "index.html": "/Portfolio/index.html",
+    "main.e2904f30.css.map": "/Portfolio/static/css/main.e2904f30.css.map",
+    "main.69a32046.js.map": "/Portfolio/static/js/main.69a32046.js.map",
+    "787.1ed0c42c.chunk.js.map": "/Portfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e2904f30.css",
+    "static/js/main.69a32046.js"
+  ]
+}
