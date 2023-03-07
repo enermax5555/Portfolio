@@ -7,7 +7,7 @@ export default function Home() {
     return (
 
         <main id='Home'>
-            <div className="bg-fixed"
+            <div className="bg-fixed overflow-hidden"
                 style={{
                     backgroundImage: `url(${BackgroundIMG})`,
                     backgroundSize: 360,
@@ -72,7 +72,7 @@ export default function Home() {
                             <span className='test'>r</span>
                         </h1>
                     </div>
-                    <div className='flex hidden lg:contents'>
+                    <div className='flex lg:contents'>
                         <img className='h-40 px-30 ml-40 mr-10 mt-20' src={require('../Assets/images/jonyTheExplorerWithRemovedBgNEW.png')} alt='Explorer Web Dev' />
                         <ImageHome />
                     </div>

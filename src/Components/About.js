@@ -15,7 +15,7 @@ export default function About() {
 
     return (
         
-        <main id='About' className='border-2 border-gray-600 border-solid lg:m-20 rounded-lg hover:border-gray-400 duration:700'>
+        <main id='About' className='lg:border-2 lg:border-gray-600 lg:border-solid lg:m-20 lg:rounded-lg hover:border-gray-400 duration:700'>
 
 
 

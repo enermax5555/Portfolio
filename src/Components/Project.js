@@ -33,7 +33,7 @@ export default function Projects() {
             <div>
                 <a href={item.ref}>
 
-                    <img className='rounded-lg h-40 w-80 lg:blur hover:blur-none hover:scale-125 duration-300 cursor-pointer' src={item.src} alt={item.alt} />
+                    <img className='rounded-lg h-40 w-80 ml-4 lg:ml-0 lg:blur hover:blur-none hover:scale-125 duration-300 cursor-pointer' src={item.src} alt={item.alt} />
 
                     </a>
                     <p className='py-5 cursor-default font-montserrat'>{item.text}</p>
@@ -42,7 +42,7 @@ export default function Projects() {
         )
     })
     return(
-        <main id='Projects' className='border-2 border-gray-600 border-solid lg:m-20 lg:mb-10 rounded-lg hover:border-gray-400'>
+        <main id='Projects' className='lg:border-2 lg:border-gray-600 lg:border-solid lg:m-20 lg:mb-10 rounded-lg hover:border-gray-400'>
             <selection className='flex p-10 justify-center select-none'>
                 <p className='text-3xl text-white font-montserrat'>PROJECTS </p>
             </selection>
