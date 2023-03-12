@@ -10,12 +10,12 @@ export default function Contact() {
     const form = useRef();
 
     const downloadCV = () => {
-        fetch(require('../Assets/files/Test.pdf')).then(response => {
+        fetch(require('../Assets/files/CV.pdf')).then(response => {
             response.blob().then(blob => {
                 const fileURL = window.URL.createObjectURL(blob);
                 let alink = document.createElement('a');
                 alink.href = fileURL;
-                alink.download = require('../Assets/files/Test.pdf');
+                alink.download = require('../Assets/files/CV.pdf');
                 alink.click();
             })
         })
