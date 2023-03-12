@@ -39,7 +39,7 @@ export default function ContactForm() {
                             color: 'white'
                         },
                     }}
-                        name="user_name" type="text" label="Enter your name" variant="outlined" fullWidth required />
+                        name="user_name" type="text" label="Enter your name" variant="outlined" fullWidth required autoComplete="off" />
                     <TextField sx={{
                         "& .MuiOutlinedInput-root": {
                             background: "rgb(20, 30, 60)"
@@ -51,7 +51,7 @@ export default function ContactForm() {
                             color: 'white'
                         },
                     }}
-                        name="user_email" type="email" label="Enter your email" variant="outlined" fullWidth required
+                        name="user_email" type="email" label="Enter your email" variant="outlined" fullWidth required autoComplete="off"
                     />
                     <TextField sx={{
                         "& .MuiOutlinedInput-root": {
@@ -64,7 +64,7 @@ export default function ContactForm() {
                             color: 'white'
                         },
                     }}
-                        name="message" multiline rows={5} fullWidth label="Enter your message" variant="outlined" required />
+                        name="message" multiline rows={5} fullWidth label="Enter your message" variant="outlined" required autoComplete="off" />
                     <Button variant="contained" type='submit' value='Send' endIcon={<SendIcon />}>
                         Send
                     </Button>
