@@ -48,7 +48,7 @@ export default function Contact() {
                         
                         </div>
                         <div className='text-center ml-10 lg:ml-0 space-y-5 py-10 m-auto'>
-                            <p>Download Demo CV here</p>
+                            <p>Download CV here</p>
                             <button onClick={downloadCV}>
                             <img className='m-auto w-12 cursor-pointer animate-bounce duration-400 hover:animate-none hover:animate-pulse' src={require('../Assets/images/Download.png')} alt='Download my Demo CV' />
                             </button>
