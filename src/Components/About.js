@@ -30,7 +30,7 @@ export default function About() {
                 <div className='grid grid-cols-1 lg:grid-cols-2 text-center text-white'>
 
                     <div id='about-carousel' data-carousel="static" className='overflow-hidden'>
-                        <div className='relative overflow-hidden lg:m-20 lg:mt-10 h-60 w-96 rounded-lg'>
+                        <div className='relative overflow-hidden lg:mx-auto lg:mt-10  h-60 w-96 rounded-lg'>
                             <div className='hidden duration-1000 ease-in-out' data-carousel-item='active'>
                             <p className='bg-gray-800 font-montserrat pb-1 pt-1'>I like to create cool looking responsive apps</p>
                                 <img src={require('../Assets/video/ResponsiveAboutNew.gif')} className='h-52 w-96'></img>  
