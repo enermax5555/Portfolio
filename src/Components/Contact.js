@@ -8,6 +8,18 @@ import ContactImage from './ContactImage'
 
 export default function Contact() {
     const form = useRef();
+
+    const downloadCV = () => {
+        fetch(require('../Assets/files/Test.pdf')).then(response => {
+            response.blob().then(blob => {
+                const fileURL = window.URL.createObjectURL(blob);
+                let alink = document.createElement('a');
+                alink.href = fileURL;
+                alink.download = require('../Assets/files/Test.pdf');
+                alink.click();
+            })
+        })
+    }
     return (
         <main id='Contact' className='lg:p- lg:pt-5 rounded-lg hover:border-gray-400'>
             <selection className='flex justify-center mb-5 select-none'>
@@ -37,9 +49,9 @@ export default function Contact() {
                         </div>
                         <div className='text-center ml-10 lg:ml-0 space-y-5 py-10 m-auto'>
                             <p>Download Demo CV here</p>
-
+                            <button onClick={downloadCV}>
                             <img className='m-auto w-12 cursor-pointer animate-bounce duration-400 hover:animate-none hover:animate-pulse' src={require('../Assets/images/Download.png')} alt='Download my Demo CV' />
-
+                            </button>
                             <p>stoqn.sisimen@gmail.com</p>
                             <p>You can find me, also, on the platforms bellow</p>
                             <Icons />

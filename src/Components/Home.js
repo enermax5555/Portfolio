@@ -10,15 +10,16 @@ export default function Home() {
             <div className="bg-fixed overflow-hidden"
                 style={{
                     backgroundImage: `url(${BackgroundIMG})`,
-                    backgroundSize: 360,
+                    backgroundSize: 250,
                     backgroundRepeat: "no-repeat",
                     backgroundPosition: "center",
+                    backgroundPositionY: 100,
                 }}>
 
                 <selection className='flex pt-10 justify-center select-none'>
 
                 </selection>
-                <header className='flex gap-x-5 lg:pl-40 lg:pt-10 pl-5 text-center select-none'>
+                <header className='flex gap-x-5 lg:pl-40 lg:py-10 pl-5 text-center select-none'>
 
                     <div className='mr-60 space-y-3 text-white  font-montserratb font-bold'>
 
@@ -72,8 +73,8 @@ export default function Home() {
                             <span className='test'>r</span>
                         </h1>
                     </div>
-                    <div className='flex lg:contents'>
-                        <img className='h-40 px-30 ml-40 mr-10 mt-20' src={require('../Assets/images/jonyTheExplorerWithRemovedBgNEW.png')} alt='Explorer Web Dev' />
+                    <div className='lg:contents'>
+                        <img className='h-40 px-30 ml-60 mr-10 mt-20' src={require('../Assets/images/jonyTheExplorerWithRemovedBgNEW.png')} alt='Explorer Web Dev' />
                         <ImageHome />
                     </div>
                 </header>

@@ -1,4 +1,5 @@
 export default function Footer() {
+
     return(
         <main className='hidden lg:contents'>
             <header>
