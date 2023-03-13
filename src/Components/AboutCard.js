@@ -93,7 +93,7 @@ export default function AboutCard() {
 
     return (
         <main>
-            <div className='group m-10'>
+            <div className='group lg:m-10 mx-10 mt-10'>
                     <div className={`${flipcard ? 'group-first:rotate-y-full absolute invisible' : ''} backface-hidden`}>
                         <p className='text-center py-1 font-bold text-xl pb-2 font-montserrat'>Skills</p>
                         <img className='m-auto rounded-full w-7' src={skillIMG} alt='My Skils' />

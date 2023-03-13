@@ -15,11 +15,11 @@ export default function About() {
 
     return (
         
-        <main id='About' className='lg:border-2 lg:border-gray-600 lg:border-solid lg:m-20 lg:rounded-lg hover:border-gray-400 duration:700'>
+        <main id='About' className='lg:border-2 lg:border-gray-600 lg:border-solid mt-10 lg:m-20 lg:rounded-lg hover:border-gray-400 duration:700'>
 
 
 
-            <selection className='flex justify-center pt-10 select-none'>
+            <selection className='flex justify-center lg:pt-10 select-none'>
                 <p className='text-3xl text-white font-montserrat'>ABOUT ME</p>
             </selection>
             <header className=''>
@@ -27,7 +27,7 @@ export default function About() {
                     <DynamicAbout />
                     <p className="py-2"></p>
                 </div>
-                <div className='grid grid-cols-1 lg:grid-cols-2 text-center text-white'>
+                <div className='grid grid-cols-1 lg:grid-cols-2 mt-10 lg:mt-0 text-center text-white'>
 
                     <div id='about-carousel' data-carousel="static" className='overflow-hidden'>
                         <div className='relative overflow-hidden lg:mx-auto lg:mt-10  h-60 w-96 rounded-lg'>
@@ -50,7 +50,7 @@ export default function About() {
                             </div> */}
                         </div>                        
                         
-                        <div className='space-x-3 my-10 lg:bottom-5 invisible lg:visible'>
+                        <div className='space-x-3 lg:my-10 lg:bottom-5 invisible lg:visible'>
                             <button className='w-3 h-3 rounded-full bg-gray-500' type='button' data-carousel-slide-to='0'></button>
                             <button className='w-3 h-3 rounded-full bg-gray-500' type='button' data-carousel-slide-to='1'></button>
                             <button className='w-3 h-3 rounded-full bg-gray-500' type='button' data-carousel-slide-to='2'></button>

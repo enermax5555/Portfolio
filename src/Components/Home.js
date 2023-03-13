@@ -73,7 +73,7 @@ export default function Home() {
                             <span className='test'>r</span>
                         </h1>
                     </div>
-                    <div className='lg:contents'>
+                    <div className='hidden lg:contents'>
                         <img className='h-40 px-30 ml-96 mr-20 mt-20' src={require('../Assets/images/jonyTheExplorerWithRemovedBgNEW.png')} alt='Explorer Web Dev' />
                         <ImageHome />
                     </div>
