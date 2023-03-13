@@ -27,9 +27,9 @@ export default function About() {
                     <DynamicAbout />
                     <p className="py-2"></p>
                 </div>
-                <div className='grid grid-cols-1 lg:grid-cols-2 mt-10 lg:mt-0 text-center text-white'>
+                <div className='grid grid-cols-1 lg:grid-cols-2 lg:mt-0 text-center text-white'>
 
-                    <div id='about-carousel' data-carousel="static" className='overflow-hidden'>
+                    <div id='about-carousel' data-carousel="static" className='overflow-hidden absolute invisible lg:relative lg:visible'>
                         <div className='relative overflow-hidden lg:mx-auto lg:mt-10  h-60 w-96 rounded-lg'>
                             <div className='hidden duration-1000 ease-in-out' data-carousel-item='active'>
                             <p className='bg-gray-800 font-montserrat pb-1 pt-1'>I like to create cool looking responsive apps</p>
