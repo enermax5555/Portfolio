@@ -74,7 +74,7 @@ export default function Home() {
                         </h1>
                     </div>
                     <div className='lg:contents'>
-                        <img className='h-40 px-30 ml-96 mr-10 mt-20' src={require('../Assets/images/jonyTheExplorerWithRemovedBgNEW.png')} alt='Explorer Web Dev' />
+                        <img className='h-40 px-30 ml-96 mr-20 mt-20' src={require('../Assets/images/jonyTheExplorerWithRemovedBgNEW.png')} alt='Explorer Web Dev' />
                         <ImageHome />
                     </div>
                 </header>
